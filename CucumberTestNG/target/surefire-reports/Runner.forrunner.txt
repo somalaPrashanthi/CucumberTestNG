@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: Runner.forrunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.766 s <<< FAILURE! - in Runner.forrunner
+Runner.forrunner.runScenario["To validate simple form and all textboxes present", "Optional[Form Feature]"](1)  Time elapsed: 0.115 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'user opens chrome browser and enter simpleform url' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user opens chrome browser and enter simpleform url")
+public void user_opens_chrome_browser_and_enter_simpleform_url() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("textbox should be enabled")
+public void textbox_should_be_enabled() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enters text in firstname,lastname,email,contact,message")
+public void user_enters_text_in_firstname_lastname_email_contact_message() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on submitbutton")
+public void user_clicks_on_submitbutton() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("An alret should be displayed")
+public void an_alret_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
